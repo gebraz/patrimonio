@@ -32,7 +32,7 @@ public class Posicao {
     @Column(name="valor")
     private Double valor;
     @Temporal(TemporalType.DATE)    
-    @Column(name = "data_cadastro")       
+    @Column(name = "data_referencia")
     private Date data; 
     @ManyToOne
     @JoinColumn(name="investimento_id")
